@@ -1,0 +1,101 @@
+body {
+    background-color: aliceblue;
+}
+
+.table {
+    
+    margin: auto auto;
+}
+
+
+table {
+    border: 5px solid rgb(202, 33, 33);
+    margin: auto auto;
+    margin-top: 20px;
+    width: 300px;
+}
+
+
+
+.board td {
+    width: 5px;
+    height: 5px;
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+    text-align: center;
+    color: #bb3232;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-transform: uppercase;
+}
+
+.timer-container {
+    text-align: center;
+    color: red;
+    width: 200px;
+    margin: auto;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    font-weight: bolder;
+}
+
+.game-level {
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.game-level button {
+    background-color: aqua;
+    border: 2px solid red;
+    width: 50px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3px;
+
+}
+
+.restart button {
+    background-color: aqua;
+    border: 2px solid red;
+    width: 70px;
+    height: 30px;
+    margin-left: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.game-stats {
+    margin-bottom: 20px;
+
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin: auto auto;
+    border: 10px solid darkblue;
+
+}
+
+.next-number {
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+}
